@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Nada Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="name" href="#">Nada.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-white" id="navbarNav">
+          <ul class="navbar-nav custom-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certificates">Certificates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section id="home" class="home">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="text-cont">
+              <h1>Hi, I'm <span id="nada">Nada</span></h1>
+              <h3>And I'm a <span id="nada">Front-End Developer</span></h3>
+              <p>
+                I'm a skilled and passionate web designer with over 2 years of
+                extensive experience. My expertise lies in creating and
+                designing attractive, user-friendly websites that seamlessly
+                blend aesthetics and functionality...
+              </p>
+            </div>
+            <div class="icons">
+              <a
+                href="https://www.facebook.com/nada.naseraldeen2002?mibextid=JRoKGi"
+                target="_blank"
+              >
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="https://wa.me/qr/AIDMWIFGOS7TK1" target="_blank">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/nadanaseraldeen?igsh=MWZmMWNjZDlxZTBteQ=="
+                target="_blank"
+              >
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/nada-naseraldeen-2176a9233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+              >
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="images">
+              <img src="image.jpeg" class="rounded-image img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="AboutImage">
+              <img src="image.jpeg" class="img-fluid" alt="My Image" />
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="aboutText">
+              <h1>About<span id="nada"> Me</span></h1>
+              <h5>Developer <span id="nada">&</span> Designer</h5>
+              <p>
+                Hello! I'm Nada Naseraldeen, a 22-year-old passionate web
+                designer based in the city of Hebron.
+                <br />
+                I'm currently studying a degree in Information Technology at
+                Palestine Polytechnic University, and by combining my love of
+                technology with my creative spirit, I specialize in designing
+                user-friendly, visually attractive websites tailored to meet
+                clients' needs. I'm constantly learning and staying up to date
+                on the latest design trends to ensure my work remains innovative
+                and effective.
+              </p>
+              <div class="aboutList">
+                <p class="aboutLinks active-link" onclick="openTab('skills')">
+                  Skills
+                </p>
+                <p class="aboutLinks" onclick="openTab('education')">
+                  Education
+                </p>
+                <p class="aboutLinks" onclick="openTab('experience')">
+                  Experience
+                </p>
+              </div>
+              <div class="linksContent active-tab" id="skills">
+                <ul>
+                  <li>
+                    <span>Programming Languages</span> <br />
+                    C++, Java, C#.
+                  </li>
+                  <li>
+                    <span>Web Development </span><br />HTML, CSS, Java Script,
+                    Bootstrap.
+                  </li>
+                  <li>
+                    <span>Technical Competencies </span><br />Object-Oriented
+                    Programming, Database Administration (Relational and
+                    Non-Relational).
+                  </li>
+                  <li>
+                    <span>Soft Skills </span><br />Communication Skills, Time
+                    Management, Teamwork.
+                  </li>
+                </ul>
+              </div>
+              <div class="linksContent" id="education">
+                <ul>
+                  <li>
+                    <span
+                      >Bachelor of Information Technology | 2020 – 2024
+                    </span>
+                    <br />
+                    Palestine Polytechnic University, Hebron.
+                  </li>
+                  <li>
+                    <span
+                      >High School Diploma - Scientific Branch | 2019 – 2020 </span
+                    ><br />Ali Ghazi Al-Mohtaseb School, Hebron.
+                  </li>
+                </ul>
+              </div>
+              <div class="linksContent" id="experience">
+                <ul>
+                  <li>
+                    <span
+                      >Massar Company, Hebron | February 2024 - May 2024
+                    </span>
+                    <br />
+                    Front-End development using JavaScript and Bootstrap.<br />
+                    C# development and Couchbase database management for backend
+                    tasks.
+                  </li>
+                  <li>
+                    <span
+                      >Hebron Municipality - IT Department, Hebron | October
+                      2022 - December 2022 </span
+                    ><br />Front-End development using HTML, CSS and Java Script
+                    to design and develop user interfaces.
+                  </li>
+                  <li>
+                    <span
+                      >Education for Employment Foundation (in partnership with
+                      UNICEF) | October 2017 - February 2018 </span
+                    ><br />Participated in the Innovative Pioneers project, a
+                    life and entrepreneurial skills training program.
+                  </li>
+                  <li>
+                    <span>Amideast, Hebron | 2016 - 2017 </span
+                    ><br />Participated in a Scratch programming course.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <h1 class="myServices">My<span id="nada"> Services</span></h1>
+        <div class="row servicesRow">
+          <div class="col-md-3">
+            <div class="info">
+              <h6><i class="bi bi-code-slash"></i></h6>
+              <h6 class="title">Web Design</h6>
+              <p class="desc">
+                Designs websites that are visually attractive and easy to use.
+                Which seamlessly blends beauty and function
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info">
+              <h6><i class="bi bi-database"></i></h6>
+              <h6 class="title">Database Administration</h6>
+              <p class="desc">
+                Ensuring data efficiency and security through database
+                management, and improving performance to manage information
+                smoothly.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info">
+              <h6><i class="bi bi-crop"></i></h6>
+              <h6 class="title">Graphic Design (Photoshop)</h6>
+              <p class="desc">
+                Elevate brands with stunning images through creative graphic
+                design in Photoshop.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="certificates" id="certificates">
+        <div class="col MyCertificates">
+          My<span id="nada"> Certificates</span>
+        </div>
+        <div class="row">
+          <div class="col-md-12 certificatesCarousel">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="5"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="6"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="7"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="8"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="9"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="10"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="11"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="12"
+                ></button>
+              </div>
+              <div class="carousel-inner text-center">
+                <div class="carousel-item active" data-bs-interval="2400">
+                  <img src="1.jpg" alt="My Certificate Image" />
+                </div>
+                <div class="carousel-item" data-bs-interval="2400">
+                  <img src="2.jpg" alt="My Certificate Image" />
+                </div>
+                <div class="carousel-item" data-bs-interval="2400">
+                  <img src="3.jpg" alt="My Certificate Image" />
+                </div>
+                <div class="carousel-item" data-bs-interval="2400">
+                  <img src="4.jpg" alt="My Certificate Image" />
+                </div>
+                <div class="carousel-item" data-bs-interval="2400">
+                  <img src="5.jpg" alt="My Certificate Image" />
+                </div>
+                <div class="carousel-item" data-bs-interval="2400">
+                  <img src="6.jpg" alt="My Certificate Image" />
+                </div>
+                <div class="carousel-item" data-bs-interval="2400">
+                  <img src="7.jpg" alt="My Certificate Image" />
+                </div>
+                <div class="carousel-item" data-bs-interval="2400">
+                  <img src="8.jpg" alt="My Certificate Image" />
+                </div>
+                <div class="carousel-item" data-bs-interval="2400">
+                  <img src="9.jpg" alt="My Certificate Image" />
+                </div>
+                <div class="carousel-item" data-bs-interval="2400">
+                  <img src="10.jpg" alt="My Certificate Image" />
+                </div>
+                <div class="carousel-item" data-bs-interval="2400">
+                  <img src="11.jpg" alt="My Certificate Image" />
+                </div>
+                <div class="carousel-item" data-bs-interval="2400">
+                  <img src="12.jpg" alt="My Certificate Image" />
+                </div>
+                <div class="carousel-item" data-bs-interval="2400">
+                  <img src="13.jpg" alt="My Certificate Image" />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="row">
+          <div class="col-5 contactMe">
+            <h1>Contact <span id="nada">Me</span></h1>
+            <div class="contactInfo">
+              <div class="mycont">
+                <i class="bi bi-envelope"></i
+                ><span>nadanaseraldeen198@gmail.com</span>
+              </div>
+              <div class="mycont">
+                <i class="bi bi-telephone"></i><span>+970 593986039</span>
+              </div>
+              <div class="icons">
+                <a
+                  href="https://www.facebook.com/nada.naseraldeen2002?mibextid=JRoKGi"
+                  target="_blank"
+                >
+                  <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://wa.me/qr/AIDMWIFGOS7TK1" target="_blank">
+                  <i class="bi bi-whatsapp"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/nadanaseraldeen?igsh=MWZmMWNjZDlxZTBteQ=="
+                  target="_blank"
+                >
+                  <i class="bi bi-instagram"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/nada-naseraldeen-2176a9233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank"
+                >
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-7 inputs">
+            <input
+              type="text"
+              class="form-control mb-3 mt-2"
+              id="exampleFormControlInput1"
+              placeholder="Your Name"
+            />
+            <input
+              type="email"
+              class="form-control mb-3"
+              id="exampleFormControlInput1"
+              placeholder="Your Email"
+            />
+            <textarea
+              class="form-control mb-4"
+              id="exampleFormControlTextarea1"
+              rows="5"
+              placeholder="Your Message"
+            ></textarea>
+            <button type="button">Submit</button>
+          </div>
+        </div>
+      </section>
+
+      <button id="scrollToTopBtn" class="scrollToTopBtn">
+        <i class="bi bi-arrow-up"></i>
+      </button>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>
+              Copyright &copy;Nada. Made with
+              <i class="bi bi-heart-fill"></i> by Nada Naseraldeen
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
