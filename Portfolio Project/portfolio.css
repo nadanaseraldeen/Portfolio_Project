@@ -49,7 +49,6 @@ body {
 }
 
 .container .home {
-    height: 670px;
     padding-top: 130px;
 }
 
@@ -80,24 +79,19 @@ body {
     text-align: justify;
 }
 
+
 .images img {
-    width: 540px;
-    height: 400px;
+    width: 84%;
+    text-align: center;
 }
 
 .images {
-    flex: 1;
     display: flex;
     justify-content: flex-end;
 }
 
 .rounded-image {
     border-radius: 50%;
-}
-
-.myImage {
-    width: 100%;
-    height: 500px;
 }
 
 .icons i {
@@ -108,7 +102,6 @@ body {
     height: 40px;
     color: rgb(226, 43, 119);
     border-radius: 50%;
-    backdrop-filter: brightness(85%);
     font-size: 20px;
     margin-right: 17px;
     box-shadow: 0 0 20px transparent;
@@ -126,13 +119,19 @@ body {
 }
 
 .about {
-    height: 670px;
-    padding-top: 70px;
+    margin-top: 20px;
+    padding-top: 100px;
+    padding-bottom: 15px;
 }
 
-.AboutImage img {
-    width: 370px;
-    height: 550px;
+
+.container .about .AboutImage {
+    height: 100%;
+}
+
+.container .about .AboutImage img {
+    height: 100%;
+    width: auto;
     border-radius: 10%;
 }
 
@@ -213,11 +212,11 @@ body {
 }
 
 .services {
-    height: 550px;
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 .myServices {
+    padding-bottom: 25px;
     text-align: center;
     font-weight: bold;
     color: white;
@@ -229,8 +228,9 @@ body {
     padding-top: 40px;
 }
 
-.servicesRow .col-md-3 {
-    margin: 9px;
+.servicesRow .col-md-4 {
+
+    margin: 12px;
     width: 300px;
     height: 230px;
     border-radius: 10px;
@@ -238,7 +238,7 @@ body {
     transition: transform 0.8s ease, box-shadow 0.5s ease;
 }
 
-.servicesRow .col-md-3:hover {
+.servicesRow .col-md-4:hover {
     z-index: 1;
     transform: scale(1.1);
     box-shadow: 0 0 20px rgb(226, 43, 119);
@@ -252,27 +252,30 @@ body {
     padding-right: 15px;
 }
 
-.servicesRow .col-md-3 .info i {
+.servicesRow .col-md-4 .info i {
     color: rgb(226, 43, 119);
     backdrop-filter: brightness(100%);
     font-size: 30px;
 }
 
-.servicesRow .col-md-3 .info .title {
+.servicesRow .col-md-4 .info .title {
     margin-top: 10px;
     font-size: 18px;
     font-weight: bold;
 }
 
-.servicesRow .col-md-3 .info .desc {
+.servicesRow .col-md-4 .info .desc {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
     margin-top: 10px;
 }
 
 .certificates {
+    margin-top: 20px;
     height: 670px;
-    padding-top: 45px;
+    padding-top: 70px;
+    margin-bottom: 30px;
+
 }
 
 .MyCertificates {
@@ -340,8 +343,7 @@ body {
 
 .inputs ::placeholder {
     color: white;
-    font-size: 12px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
 }
 
 .inputs input:focus,
@@ -401,4 +403,34 @@ body {
 .scrollToTopBtn:hover {
     transform: scale(1.1);
     box-shadow: 0 0 20px rgb(226, 43, 119);
+}
+
+@media (max-width: 768px) {
+    .row.together {
+        position: relative;
+    }
+
+    .col-sm-12.order-md-2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .text-cont {
+        padding-top: 300px;
+    }
+
+    .images>div[class^="col"] {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .images {
+        justify-content: center;
+        align-items: center;
+    }
 }
