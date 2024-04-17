@@ -404,7 +404,7 @@ body {
     box-shadow: 0 0 20px rgb(226, 43, 119);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .row.together {
         position: relative;
     }
@@ -470,7 +470,7 @@ body {
     .footer p {
         color: white;
         margin-bottom: 0;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .scrollToTopBtn {
@@ -502,7 +502,7 @@ body {
     }
 
     .custom-nav .nav-link {
-        font-size: 17px;
+        font-size: 15px;
 
     }
 
@@ -549,7 +549,7 @@ body {
 
     .text-cont h1,
     .aboutText h1 {
-        font-size: 37px;
+        font-size: 35px;
     }
 
     .text-cont h3 {
@@ -569,7 +569,7 @@ body {
     .contactMe h1 {
         position: relative;
         top: -15px;
-        font-size: 40px;
+        font-size: 37px;
         margin-bottom: -15px;
     }
 
